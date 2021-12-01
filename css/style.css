@@ -1,0 +1,506 @@
+/* ******************root starts here **************/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: none;
+}
+/* ******************root ends here **************/
+
+/* ******************topBar starts here **************/
+
+.topBar{
+    padding: 10px;
+}
+
+.topBar h6{
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-main{
+    background-color: #94c7eb;
+}
+
+/* ******************topBar ends here **************/
+.navbar{
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ff708a !important;
+    
+}
+
+nav li{
+    text-transform: uppercase;
+}
+
+
+.home-cart{
+    font-weight: bold;
+}
+
+.home-cart span{
+    display: inline-block;
+    padding-right: 8px;
+    font-size:large;
+}
+
+/* ******************Banner starts here **************/
+
+.banner-img{
+    height: 100%;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    margin: 0;
+    background-color: rgba(148, 199, 235, 0.7);
+    padding: 100px;
+}
+
+.info h2{
+    font-weight:bolder;
+    font-size: xx-large;
+    text-align: center;
+    letter-spacing: 1.25px;
+}
+
+.info a{
+    padding: 12px;
+    text-decoration: none;
+    background-color: rgba(148, 199, 235, 0.7);
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.info a:hover{
+    background-color: #ff708a;
+    color: white;
+}
+/* ******************Banner ends here **************/
+
+/* ******************Collections starts here **************/
+.collections{
+    margin: 40px auto;
+    margin-bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-1, .banner-2, .banner-3, .banner-4,.banner-5,.banner-6{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.collections img, .new-arrival img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+
+.discount-info{
+    position: absolute;
+    color:black;
+    right:-20px;
+    top:-30px;
+    color:#ff708a;
+    z-index:2;
+    font-weight: 800;
+    padding: 30px 30px 20px 30px;
+    background-color: whitesmoke;
+    border-radius: 60%; 
+}
+.collections img:hover,.new-arrival img:hover{
+    
+    transform: scale(1.02);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.banner-info1, .banner-info3{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+
+.banner-info1 p,.banner-info2 p,.banner-info3 p, .banner-info4 p, .banner-info5 p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+.banner-info1 a, .banner-info3 a{
+    text-decoration: none;
+    color:black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.banner-info1 a:hover, .banner-info3 a:hover{
+    color: palevioletred;
+    transition: all 0.2s;
+}
+
+.banner-info2{
+    background-color:#ff708a;
+    width: 30%;
+}
+.banner-info2 p{
+    color: white;
+}
+
+.banner-info2 {
+    color: white;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+    padding: 30px;
+    
+}
+
+
+
+
+
+/* ******************Collections ends here **************/
+/* ******************Popular section starts here **************/
+
+.popular-section .header{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.products .card{
+
+    margin-bottom: 30px;
+}
+
+
+.pricetag{
+    color:#ff708a;
+    
+}
+
+
+.ratings i{
+    color:rgba(148, 199, 235,1);
+}
+
+.products a{
+    text-decoration: none;
+    color: black;
+}
+
+.products a:hover{
+    text-decoration: none;
+    color: #ff708a;
+}
+
+
+/* ******************Popular section ends here **************/
+
+/* ******************New arrival starts here **************/
+
+.new-arrival{
+    margin: 0;
+}
+
+.banner-info4{
+    position: absolute;
+    z-index : 2;
+    color:black;
+    top: 0;
+    right:0;
+    width: 40%;
+}
+
+
+.banner-info4 img, .banner-info6 img{
+    position: relative;
+}
+.banner-info4 p{
+    position: absolute;
+    top: 3px;
+    padding-left: 40px;
+}
+
+.banner-4 a{
+    
+    position: relative;
+    top: -60px;
+    left: 30px;
+    color:black;
+    text-decoration: underline;
+    
+}
+
+.banner-info5{
+    position: absolute;
+    top: 30%;
+    padding-left: 30px;
+}
+
+.banner-info5 a{
+    color:black;
+    text-decoration: underline;
+    
+}
+.banner-info5 a:hover,.banner-4 a:hover, .banner-info6 a:hover{
+    color:#ff708a;
+    
+}
+.banner-info5 h6{
+    
+    text-align: center;
+}
+
+.banner-info6{
+    position: absolute;
+    top: 0px;
+    width: 45%;
+ 
+}
+
+
+.banner-info6 p{
+    position: absolute;
+    top: 4px;
+    padding-left: 30px;
+    font-weight: bold;
+    color:white;
+}
+
+.banner-info6 a{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    color: black;
+
+}
+
+/* ******************New arrival ends here **************/
+
+/* ******************Best deal starts  here **************/
+
+
+.deal-card .card{
+    position: relative;
+}
+
+.deal-card .card .card-content{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right:15px;
+
+}
+
+.deal-card .card .card-content a{
+    color:black;
+    text-decoration: none;
+}
+
+.deal-card .card .card-content a:hover{
+    color:#ff708a;
+
+}
+
+
+
+.discounted{
+    color:#94c7eb;
+
+}
+
+.pricetag .card-title{
+    font-weight: bold;
+}
+
+.deal-card .card .card-content .link1{
+     position:relative;
+     top: 400px;
+     text-align: center;
+     text-decoration: underline;
+}
+
+
+
+/* ******************Best deal ends  here **************/
+/* ******************Sale Product starts  here **************/
+
+.header h3{
+    font-weight: bold;
+}
+
+.sale-products .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.sale-products .card a:hover, .blog-section .card-title a:hover{
+    color:#ff708a;
+}
+
+
+.sale-products{
+    margin-bottom: 15px;
+}
+/* ******************Sale Product ends  here **************/
+
+/* ******************Shipping Flow starts  here **************/
+
+.shipping-flow{
+   background-image: url("https://preview.hasthemes.com/jadusona-v2/assets/images/pattern/pattern-dot.png");
+   background-color: #94c7eb;
+   padding: 30px;
+   margin-bottom: 30px;
+}
+
+.shipping-flow h3{
+    font-weight: 600;
+}
+
+.shipping-flow h1{
+    font-weight: 300;
+    font-size: 50px;
+}
+
+/* ******************Shipping flow ends  here **************/
+/* ******************Blog section starts  here **************/
+
+.card-text img{
+    border: 1px solid #94c7eb;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.blog-section .card-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.card-description::after{
+    content: "";
+    border: 1px solid #ff708a;
+    display: block;
+    margin-top: 5px;
+
+
+}
+
+/* ******************Blog section ends  here **************/
+/* ******************Brands section starts  here **************/
+
+.brands{
+    height: auto;
+    margin: 60px auto;
+}
+.brands img{
+    height: 100%;
+}
+/* ******************Brands section ends  here **************/
+
+.footer{
+background-image: url("https://preview.hasthemes.com/jadusona-v2/assets/images/pattern/pattern-dot.png");
+background-color: rgba(141, 187, 219, 0.2);
+
+padding: 50px;
+font-size: large;
+}
+
+.footer-col{
+    margin-bottom: 10px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer-title::after{
+    content: "";
+    border: 1px solid #56aeec;
+    display: block;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.address,.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact span:hover, .email span:hover{
+   color: #ff708a;
+   cursor: pointer;
+}
+
+.product-links, .information-links{
+    margin-top: 20px;
+}
+
+.product-links ul, .information-links ul {
+    padding: 0px;
+}
+
+
+.product-links li, .information-links li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.product-links a, .information-links a{
+    text-decoration:  none;
+    color: black;
+}
+
+.product-links a:hover, .information-links a:hover{
+    color: #ff708a;
+}
+
+.copyright{
+    padding: 15px;
+    background-color: rgba(148, 199, 235,1);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .info{
+        display: none;
+    }
+  }
