@@ -716,3 +716,118 @@ font-size: large;
     padding-left: 3px;
     color: #4d4a4a;
 }
+
+.cart-table{
+    margin: 30px auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+
+
+
+
+.cart-table .cart-image{
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+.cart-table img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.cart-table td{
+    vertical-align: middle;
+}
+
+.cart-table a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart-table a:hover{
+    color: #ff708a;
+}
+
+.pink-theme{
+    color:#ff708a;
+}
+
+.continue-shopping,.checkout,.coupon-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #070707;
+    font-weight:400;
+    text-decoration: none;
+    color:rgb(233, 231, 231);
+}
+
+.continue-shopping:hover,.checkout:hover,.coupon-btn:hover{
+    background-color:#ff708a;
+     color:white;
+}
+.coupon-section{
+    margin-top: 30px;
+}
+
+.coupon-section p{
+    font-size: large;
+}
+
+small{
+    font-weight: normal;
+    font-size: medium;
+}
+
+
+.card-total{
+    text-align: right;
+    font-size: larger;
+}
+
+.card-total .total{
+    font-size: x-large;
+}
+
+.card-total .sub-total{
+    font-size: medium;
+    font-weight: normal;
+}
+.card-total tbody th,.card-total tbody td{
+    border: none;
+}
+
+
+
+.col-checkout{
+    text-align: right;
+}
+
+.coupon-form{
+    margin-top: 20px;
+    position: relative;
+}
+
+.coupon-form input[type="text"]{
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+
+.coupon-btn{
+    position: absolute;
+    top: 0px;
+    display: inline;
+    left: 130px;
+}
