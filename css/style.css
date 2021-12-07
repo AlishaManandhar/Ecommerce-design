@@ -745,8 +745,16 @@ font-size: large;
 
 
 
-.cart-table td{
+.cart-table tr td{
     vertical-align: middle;
+}
+
+.cart-table  tr td:nth-child(4){
+    vertical-align: middle;
+    min-width: 150px;
+}
+.cart-table  tr td:nth-child(5){
+    min-width: 175px;
 }
 
 .cart-table a{
@@ -830,4 +838,48 @@ small{
     top: 0px;
     display: inline;
     left: 130px;
+}
+
+.login input[type="text"], .login input[type="password"]{
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.login input[type="submit"]{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color:white;
+    background-color: #070707;
+}
+
+.login input[type="submit"]:hover{
+    background-color: #ff708a;
+}
+
+.seperator{
+    border-right: 1px solid black;
+}
+
+:focus{
+    outline: none;
+}
+
+
+.add-to-cart{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 18px;
+    background-color: #070707;
+    font-weight:400;
+    color:rgb(233, 231, 231);
+}
+
+.add-to-cart:hover{
+    background-color: #ff708a;
 }
